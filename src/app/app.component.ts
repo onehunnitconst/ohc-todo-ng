@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Typography } from './common/typography';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ohcboard';
+  onClick(e: boolean) {
+    alert('안녕!');
+  }
+
+  getTypography(typo: Typography) {
+    return typo;
+  }
 }
