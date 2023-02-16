@@ -7,11 +7,5 @@ import { Typography } from './common/typography';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  onClick(e: boolean) {
-    alert('안녕!');
-  }
-
-  getTypography(typo: Typography) {
-    return typo;
-  }
+  items: string[] = ['밥 먹기', '손 씻기', '출근하기', '어쩌구', '저쩌구']
 }

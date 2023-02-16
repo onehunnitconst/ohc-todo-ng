@@ -13,7 +13,7 @@ import { Typography } from '../../common/typography';
     </p>
   `,
 })
-export class TextComponent {
+export class TextAtom {
   @Input() text: string = '';
   @Input() typoName: string = 'body1';
 
